@@ -1,0 +1,58 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(flower.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 100px;
+}
+
+input,button{
+    font-size: 16px;
+    padding: 10px;
+    
+}
+button{
+    color: white;
+    background-color:rgb(53, 51, 51);
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    width: 200%;
+    max-width: 400px;
+}
+ li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;  
+}
+.complete
+{
+    text-decoration: line-through;
+    color: #888;
+}
+.task-button{
+    display: flex;
+    gap: 10px;
+}
+.task-button button{
+    padding: 5px 10px;
+}
+
